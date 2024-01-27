@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chess</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-color: dimgrey;">
+
+        <div id="popup" class="hidden">
+            <div class="popup-content">
+              <p>This is the popup content.</p>
+              <button id="playAgainButton" style="cursor: pointer;">Play again</button>
+            </div>
+        </div>
+
+        <div id="gameboard"></div>
+        
+        <div class="box">
+            <h3 class="turns">It is <span id="player"></span>'s turn.</h3>
+            <h2 id="info-display"></h2>
+        </div>
+
+        <!--<div class="box2">
+            <p id="takenPiecesWhite">white pieces captured:</p>
+            <img id="whitePiecesImage" src="" alt="White Pieces Image">
+            <p id="takenPiecesBlack">black pieces captured:</p>
+            <img id="blackPiecesImage" src="" alt="Black Pieces Image">
+        </div>-->
+
+        <div class="aboveBox"><div id="timer2"></div></div>
+        <div class="belowBox"><div id="timer1"></div></div>
+
+        <div class="lettering">
+            <div class="label-letter">A</div>
+            <div class="label-letter">B</div>
+            <div class="label-letter">C</div>
+            <div class="label-letter">D</div>
+            <div class="label-letter">E</div>
+            <div class="label-letter">F</div>
+            <div class="label-letter">G</div>
+            <div class="label-letter">H</div>
+        </div>
+
+        <div class="numbering">
+            <div class="label-number">1</div>
+            <div class="label-number">2</div>
+            <div class="label-number">3</div>
+            <div class="label-number">4</div>
+            <div class="label-number">5</div>
+            <div class="label-number">6</div>
+            <div class="label-number">7</div>
+            <div class="label-number">8</div>
+        </div>
+
+        <script src="pieces.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+</html>
